@@ -1,4 +1,5 @@
 // import React from "react"; //updated React does not need React import!!!
+import React, { useState } from "react";
 import Expenses from "./components/Expenses/Expenses";
 
 const App = () => {
