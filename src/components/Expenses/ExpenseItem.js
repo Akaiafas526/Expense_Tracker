@@ -4,7 +4,7 @@ import Card from "../UI/Card";
 import "./ExpenseItem.css";
 
 const ExpenseItem = (props) => {
-  useState();
+  useState(props.title);
   let title = props.title;
 
   const clickHandler = () => {
