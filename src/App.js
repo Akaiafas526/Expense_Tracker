@@ -1,6 +1,7 @@
 //updated React does not need React import!!!
-// import React, { useState } from "react";
+// import React from "react";
 import Expenses from "./components/Expenses/Expenses";
+import NewExpense from "./components/NewExpense/NewExpense";
 
 const App = () => {
   const expenses = [
@@ -27,7 +28,7 @@ const App = () => {
   console.log(expenses);
   return (
     <div>
-      <h2>I love to code!</h2>
+      <NewExpense />
       <Expenses items={expenses} />
     </div>
   );
