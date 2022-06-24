@@ -75,6 +75,7 @@ const ExpenseForm = (props) => {
           <label>Amount</label>
           <input
             type="number"
+            step=".0100"
             // two way binding
             value={enteredAmount}
             // listens for user input
